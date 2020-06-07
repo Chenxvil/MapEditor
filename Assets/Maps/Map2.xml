@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GBK"?>
+<MapInfo>
+  <MapData len="32" wid="32" TexturePath="MapTexture/Texture_01" />
+  <EntitiesList>
+    <EntityInfo x="-3.5" y="0" z="3.5" Type="NPC" MapCubeIndex="620" PathIndex="0" />
+    <GameInfo HP="100" AtkValue="100" DefValue="5" AtkSpeed="1" AtkRange="1" MoveSpeed="1" IsMove="False" IsAtk="False" />
+    <EntityInfo x="2.5" y="0" z="4.5" Type="Monster" MapCubeIndex="658" PathIndex="0" />
+    <GameInfo HP="100" AtkValue="100" DefValue="5" AtkSpeed="1" AtkRange="1" MoveSpeed="1" IsMove="False" IsAtk="False" />
+    <EntityInfo x="-0.5" y="0" z="0.5" Type="Monster" MapCubeIndex="527" PathIndex="0" />
+    <GameInfo HP="100" AtkValue="100" DefValue="5" AtkSpeed="1" AtkRange="1" MoveSpeed="1" IsMove="False" IsAtk="False" />
+    <EntityInfo x="-6.5" y="0" z="10.5" Type="Building" MapCubeIndex="841" PathIndex="0" />
+    <GameInfo HP="100" AtkValue="100" DefValue="5" AtkSpeed="1" AtkRange="1" MoveSpeed="1" IsMove="False" IsAtk="False" />
+  </EntitiesList>
+</MapInfo>

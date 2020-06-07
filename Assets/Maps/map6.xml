@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MapData>
+  <Map TexturePath="z2VwC78rM23kStcvwB+Y5g==" wid="xaEkm7B0Zsw=" len="xaEkm7B0Zsw=" />
+  <EntitiesList>
+    <Entity>
+      <EntityAtr PathIndex="aqo3M2QXv1U=" MapCubeIndex="G3Y43ETx79E=" Type="vyO891sBh5I=" Model="RmjLtJThAk+t3tZhs3v1SA==" quaW="m9yqknKNq+Y=" quaZ="aqo3M2QXv1U=" quaY="aqo3M2QXv1U=" quaX="aqo3M2QXv1U=" posZ="Zs3sFMUrf5M=" posY="aqo3M2QXv1U=" posX="UMagTNc9Igk=" />
+      <GameAtr IsAtk="l2L8dT04QJw=" IsMove="l2L8dT04QJw=" MoveSpeed="m9yqknKNq+Y=" AtkRange="m9yqknKNq+Y=" AtkSpeed="m9yqknKNq+Y=" DefValue="xj1Cyv9Kdn4=" AtkValue="ZrJO9ElgSMA=" HP="ZrJO9ElgSMA=" />
+    </Entity>
+  </EntitiesList>
+  <PathList>
+    <Path IsEmpty="l2L8dT04QJw=" Index="m9yqknKNq+Y=">
+      <KeyPointList>
+        <KeyPoint y="58WTGcPBC5I=" x="7apF1qCMpGU=" />
+        <KeyPoint y="aPvfEHGckZI=" x="FPuTTT6Tm1I=" />
+      </KeyPointList>
+      <PointList>
+        <Point y="58WTGcPBC5I=" x="7apF1qCMpGU=" />
+        <Point y="aPvfEHGckZI=" x="OHCtklj7pdI=" />
+        <Point y="aPvfEHGckZI=" x="txiSDLmcjoE=" />
+        <Point y="aPvfEHGckZI=" x="zgYwE26COHA=" />
+        <Point y="aPvfEHGckZI=" x="AJw5y3SqEGo=" />
+        <Point y="aPvfEHGckZI=" x="3Yvh3/uaEF4=" />
+        <Point y="aPvfEHGckZI=" x="ONo+LxsfStU=" />
+        <Point y="aPvfEHGckZI=" x="s7rRtvUjL9c=" />
+        <Point y="aPvfEHGckZI=" x="Ch664JbNFGw=" />
+        <Point y="aPvfEHGckZI=" x="FPuTTT6Tm1I=" />
+      </PointList>
+    </Path>
+    <Path IsEmpty="l2L8dT04QJw=" Index="V23zGdkmnC0=">
+      <KeyPointList>
+        <KeyPoint y="o5CUsgEKXvo=" x="7apF1qCMpGU=" />
+        <KeyPoint y="HA/Oam4+XHU=" x="OHCtklj7pdI=" />
+        <KeyPoint y="OHCtklj7pdI=" x="txiSDLmcjoE=" />
+        <KeyPoint y="o5CUsgEKXvo=" x="AJw5y3SqEGo=" />
+      </KeyPointList>
+      <PointList>
+        <Point y="o5CUsgEKXvo=" x="7apF1qCMpGU=" />
+        <Point y="+LOBGwrZlBw=" x="7apF1qCMpGU=" />
+        <Point y="HA/Oam4+XHU=" x="OHCtklj7pdI=" />
+        <Point y="+LOBGwrZlBw=" x="OHCtklj7pdI=" />
+        <Point y="o5CUsgEKXvo=" x="OHCtklj7pdI=" />
+        <Point y="7apF1qCMpGU=" x="OHCtklj7pdI=" />
+        <Point y="OHCtklj7pdI=" x="txiSDLmcjoE=" />
+        <Point y="7apF1qCMpGU=" x="zgYwE26COHA=" />
+        <Point y="o5CUsgEKXvo=" x="AJw5y3SqEGo=" />
+      </PointList>
+    </Path>
+  </PathList>
+  <Music />
+</MapData>

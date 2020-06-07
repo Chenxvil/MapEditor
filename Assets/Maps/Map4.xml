@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MapData>
+  <Map TexturePath="Texture_01" wid="32" len="32" />
+  <EntitiesList>
+    <Entity>
+      <EntityAtr PathIndex="0" MapCubeIndex="589" Type="NPC" Model="Dinosaur" quaW="1" quaZ="0" quaY="0" quaX="0" posZ="2.5" posY="0" posX="-2.5" />
+      <GameAtr IsAtk="False" IsMove="False" MoveSpeed="1" AtkRange="1" AtkSpeed="1" DefValue="5" AtkValue="100" HP="100" />
+    </Entity>
+    <Entity>
+      <EntityAtr PathIndex="0" MapCubeIndex="687" Type="Monster" Model="Dinosaur" quaW="0.7071066" quaZ="3.912304E-06" quaY="0.7071069" quaX="-7.154539E-08" posZ="5.5" posY="0" posX="-0.5" />
+      <GameAtr IsAtk="False" IsMove="False" MoveSpeed="1" AtkRange="1" AtkSpeed="1" DefValue="5" AtkValue="100" HP="100" />
+    </Entity>
+  </EntitiesList>
+  <PathList>
+    <Path IsEmpty="False" Index="1">
+      <KeyPointList>
+        <KeyPoint y="14" x="15" />
+        <KeyPoint y="12" x="20" />
+      </KeyPointList>
+      <PointList>
+        <Point y="14" x="15" />
+        <Point y="13" x="16" />
+        <Point y="12" x="17" />
+        <Point y="12" x="18" />
+        <Point y="12" x="19" />
+        <Point y="12" x="20" />
+      </PointList>
+    </Path>
+    <Path IsEmpty="False" Index="2">
+      <KeyPointList>
+        <KeyPoint y="16" x="20" />
+        <KeyPoint y="13" x="28" />
+      </KeyPointList>
+      <PointList>
+        <Point y="16" x="20" />
+        <Point y="16" x="21" />
+        <Point y="15" x="22" />
+        <Point y="14" x="23" />
+        <Point y="13" x="24" />
+        <Point y="13" x="25" />
+        <Point y="13" x="26" />
+        <Point y="13" x="27" />
+        <Point y="13" x="28" />
+      </PointList>
+    </Path>
+  </PathList>
+  <Music />
+</MapData>

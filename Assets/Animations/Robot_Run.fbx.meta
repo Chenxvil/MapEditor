@@ -1,0 +1,1289 @@
+fileFormatVersion: 2
+guid: 6105e1a1bb6db5d40ac38effecb56f71
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 7400000
+    second: Take 001 //// roBot@loop_run_funny
+  - first:
+      74: 7400002
+    second: loop_run_funny //// roBot@loop_run_funny
+  - first:
+      74: -6121654259113989051
+    second: loop_run_funny
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: loop_run_funny
+      takeName: 
+      internalID: 0
+      firstFrame: 700
+      lastFrame: 735
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 29528c42d3e3e2f4aab66bacc0f9945e
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: roBot@loop_run_funny(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Main
+      parentName: roBot@loop_run_funny(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -3.789804e-18, y: -0.7373754, z: 3.789804e-18, w: 0.67548317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:MotionSystem
+      parentName: robo_rigg_2014:Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKSystem
+      parentName: robo_rigg_2014:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKParentConstraintToAnkle_R
+      parentName: robo_rigg_2014:FKSystem
+      position: {x: 0.17257625, y: 0.09703698, z: -0.13358223}
+      rotation: {x: -0.4171184, y: -0.38690907, z: 0.5520249, w: 0.6095754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetMiddleToe1_R
+      parentName: robo_rigg_2014:FKParentConstraintToAnkle_R
+      position: {x: -0.0715729, y: -0.089026704, z: -0.0000298129}
+      rotation: {x: 0.00014316618, y: -0.00008719652, z: 0.5167764, w: 0.85612047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraMiddleToe1_R
+      parentName: robo_rigg_2014:FKOffsetMiddleToe1_R
+      position: {x: 1.110223e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKMiddleToe1_R
+      parentName: robo_rigg_2014:FKExtraMiddleToe1_R
+      position: {x: -0, y: 0, z: -2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXMiddleToe1_R
+      parentName: robo_rigg_2014:FKMiddleToe1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKParentConstraintToChest_M
+      parentName: robo_rigg_2014:FKSystem
+      position: {x: 0.01679411, y: 0.7450627, z: 0.110107556}
+      rotation: {x: -0.5288561, y: 0.36402747, z: 0.63153017, w: -0.4347011}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetScapula_R
+      parentName: robo_rigg_2014:FKParentConstraintToChest_M
+      position: {x: -0.032848507, y: 2.799908e-17, z: -0.13727379}
+      rotation: {x: 0.50000006, y: -0.49999997, z: 0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraScapula_R
+      parentName: robo_rigg_2014:FKOffsetScapula_R
+      position: {x: 2.220446e-17, y: 1.7763569e-16, z: 6.617445e-25}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKScapula_R
+      parentName: robo_rigg_2014:FKExtraScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXScapula_R
+      parentName: robo_rigg_2014:FKScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetShoulder_R
+      parentName: robo_rigg_2014:FKXScapula_R
+      position: {x: -0.06920625, y: -1.7763569e-16, z: -4.5445912e-17}
+      rotation: {x: 0.99998266, y: -2.5760508e-10, z: 0.005893362, w: -0.00000004371063}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraShoulder_R
+      parentName: robo_rigg_2014:FKOffsetShoulder_R
+      position: {x: 4.440892e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKShoulder_R
+      parentName: robo_rigg_2014:FKExtraShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.04263621, y: 0.4244297, z: -0.5227302, w: 0.73810214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXShoulder_R
+      parentName: robo_rigg_2014:FKShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetElbow_R
+      parentName: robo_rigg_2014:FKXShoulder_R
+      position: {x: -0.17971827, y: 2.7820413e-11, z: 8.6736174e-17}
+      rotation: {x: -2.3619876e-26, y: -0.0018814658, z: -4.037001e-16, w: 0.9999983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraElbow_R
+      parentName: robo_rigg_2014:FKOffsetElbow_R
+      position: {x: 4.440892e-17, y: 1.7763569e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKElbow_R
+      parentName: robo_rigg_2014:FKExtraElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.6839508, z: -0, w: 0.72952825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXElbow_R
+      parentName: robo_rigg_2014:FKElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetNeck_M
+      parentName: robo_rigg_2014:FKParentConstraintToChest_M
+      position: {x: -0.08095632, y: -9.5128206e-17, z: 4.853438e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraNeck_M
+      parentName: robo_rigg_2014:FKOffsetNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKNeck_M
+      parentName: robo_rigg_2014:FKExtraNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXNeck_M
+      parentName: robo_rigg_2014:FKNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetHead_M
+      parentName: robo_rigg_2014:FKXNeck_M
+      position: {x: -0.059071697, y: -1.741383e-16, z: 4.985956e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraHead_M
+      parentName: robo_rigg_2014:FKOffsetHead_M
+      position: {x: -1.7763569e-16, y: 3.9443046e-32, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKHead_M
+      parentName: robo_rigg_2014:FKExtraHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.022738155, y: 0.0032578052, z: 0.05222988, w: 0.9983709}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXHead_M
+      parentName: robo_rigg_2014:FKHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetScapula_L
+      parentName: robo_rigg_2014:FKParentConstraintToChest_M
+      position: {x: -0.032848507, y: -4.1594066e-17, z: 0.13727379}
+      rotation: {x: -0.50000024, y: -0.4999998, z: -0.49999997, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraScapula_L
+      parentName: robo_rigg_2014:FKOffsetScapula_L
+      position: {x: -0, y: -1.7763569e-16, z: -1.323489e-24}
+      rotation: {x: -6.1232336e-17, y: 8.898792e-17, z: 6.123234e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKScapula_L
+      parentName: robo_rigg_2014:FKExtraScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXScapula_L
+      parentName: robo_rigg_2014:FKScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetShoulder_L
+      parentName: robo_rigg_2014:FKXScapula_L
+      position: {x: 0.06920625, y: 3.5527137e-16, z: 4.5445912e-17}
+      rotation: {x: 0.99998266, y: -2.5760508e-10, z: 0.005893362, w: -0.00000004371063}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraShoulder_L
+      parentName: robo_rigg_2014:FKOffsetShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -6.122809e-17, y: -8.326673e-17, z: -1.7300344e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKShoulder_L
+      parentName: robo_rigg_2014:FKExtraShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.019188844, y: 0.14300299, z: -0.5716946, w: 0.80768013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXShoulder_L
+      parentName: robo_rigg_2014:FKShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetElbow_L
+      parentName: robo_rigg_2014:FKXShoulder_L
+      position: {x: 0.17971827, y: -9.0004275e-11, z: -5.759282e-17}
+      rotation: {x: -2.3619876e-26, y: -0.0018814658, z: -4.037001e-16, w: 0.9999983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraElbow_L
+      parentName: robo_rigg_2014:FKOffsetElbow_L
+      position: {x: -0, y: -1.7763569e-16, z: -1.7347235e-19}
+      rotation: {x: -6.123037e-17, y: -1.3183898e-16, z: -2.5042707e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKElbow_L
+      parentName: robo_rigg_2014:FKExtraElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.5214799, z: -0, w: 0.85326356}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXElbow_L
+      parentName: robo_rigg_2014:FKElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKParentConstraintToRoot_M
+      parentName: robo_rigg_2014:FKSystem
+      position: {x: 0.002756941, y: 0.5326344, z: 0.031407017}
+      rotation: {x: 0.061360702, y: 0.18410039, z: -0.7044394, w: 0.68272036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetHip_R
+      parentName: robo_rigg_2014:FKParentConstraintToRoot_M
+      position: {x: 0.035254914, y: 0.11694264, z: 0.010286232}
+      rotation: {x: -0.005754805, y: 0.7070834, z: -0.70708334, w: -0.0057548047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraHip_R
+      parentName: robo_rigg_2014:FKOffsetHip_R
+      position: {x: 8.881784e-17, y: -1.2143064e-18, z: 2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKHip_R
+      parentName: robo_rigg_2014:FKExtraHip_R
+      position: {x: -0, y: 0, z: 2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXHip_R
+      parentName: robo_rigg_2014:FKHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetKnee_R
+      parentName: robo_rigg_2014:FKXHip_R
+      position: {x: -0.27488762, y: -1.3183898e-16, z: -5.5955242e-15}
+      rotation: {x: 5.4659095e-24, y: 6.012914e-14, z: -0.051871434, w: 0.99865377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraKnee_R
+      parentName: robo_rigg_2014:FKOffsetKnee_R
+      position: {x: -4.440892e-17, y: -5.551115e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKKnee_R
+      parentName: robo_rigg_2014:FKExtraKnee_R
+      position: {x: -4.440892e-17, y: -5.551115e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXKnee_R
+      parentName: robo_rigg_2014:FKKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetAnkle_R
+      parentName: robo_rigg_2014:FKXKnee_R
+      position: {x: -0.19579712, y: 2.3314685e-16, z: 2.3359093e-14}
+      rotation: {x: -0.00016713614, y: -0.000010045816, z: 0.05999732, w: 0.99819857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraAnkle_R
+      parentName: robo_rigg_2014:FKOffsetAnkle_R
+      position: {x: -1.110223e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKAnkle_R
+      parentName: robo_rigg_2014:FKExtraAnkle_R
+      position: {x: -1.110223e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXAnkle_R
+      parentName: robo_rigg_2014:FKAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetHip_L
+      parentName: robo_rigg_2014:FKParentConstraintToRoot_M
+      position: {x: 0.035254914, y: -0.11694264, z: 0.010286232}
+      rotation: {x: 0.70708334, y: 0.005754805, z: -0.0057548047, w: 0.7070834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraHip_L
+      parentName: robo_rigg_2014:FKOffsetHip_L
+      position: {x: -0, y: 0, z: -2.220446e-17}
+      rotation: {x: 0, y: 0, z: 1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKHip_L
+      parentName: robo_rigg_2014:FKExtraHip_L
+      position: {x: -0, y: -1.2143064e-18, z: -2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXHip_L
+      parentName: robo_rigg_2014:FKHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetKnee_L
+      parentName: robo_rigg_2014:FKXHip_L
+      position: {x: 0.27488762, y: 2.4164699e-16, z: 5.5733197e-15}
+      rotation: {x: 5.4659095e-24, y: 6.012914e-14, z: -0.051871434, w: 0.99865377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraKnee_L
+      parentName: robo_rigg_2014:FKOffsetKnee_L
+      position: {x: -0, y: 0, z: -6.6613384e-17}
+      rotation: {x: 5.551115e-17, y: 1.6653345e-16, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKKnee_L
+      parentName: robo_rigg_2014:FKExtraKnee_L
+      position: {x: -0, y: 0, z: -6.6613384e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXKnee_L
+      parentName: robo_rigg_2014:FKKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetAnkle_L
+      parentName: robo_rigg_2014:FKXKnee_L
+      position: {x: 0.19579712, y: -1.110223e-16, z: -2.3203661e-14}
+      rotation: {x: -0.00016713614, y: -0.000010045816, z: 0.05999732, w: 0.99819857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraAnkle_L
+      parentName: robo_rigg_2014:FKOffsetAnkle_L
+      position: {x: 1.110223e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKAnkle_L
+      parentName: robo_rigg_2014:FKExtraAnkle_L
+      position: {x: 1.110223e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXAnkle_L
+      parentName: robo_rigg_2014:FKAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKParentConstraintToAnkle_L
+      parentName: robo_rigg_2014:FKSystem
+      position: {x: -0.1803651, y: 0.09703699, z: 0.19681822}
+      rotation: {x: 0.49991632, y: -0.49991632, z: -0.5000837, w: 0.5000837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetMiddleToe1_L
+      parentName: robo_rigg_2014:FKParentConstraintToAnkle_L
+      position: {x: 0.07157294, y: 0.08902671, z: 0.000029812867}
+      rotation: {x: 0.00014316618, y: -0.00008719652, z: 0.5167764, w: 0.85612047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraMiddleToe1_L
+      parentName: robo_rigg_2014:FKOffsetMiddleToe1_L
+      position: {x: -3.3306692e-17, y: 0, z: -2.220446e-17}
+      rotation: {x: -1.6653345e-16, y: -2.0816682e-17, z: 5.6201377e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKMiddleToe1_L
+      parentName: robo_rigg_2014:FKExtraMiddleToe1_L
+      position: {x: -1.110223e-17, y: -1.110223e-17, z: 2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXMiddleToe1_L
+      parentName: robo_rigg_2014:FKMiddleToe1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:RootCenterBtwLegsBlended_M
+      parentName: robo_rigg_2014:FKSystem
+      position: {x: -0, y: 0.60153055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:CenterOffset_M
+      parentName: robo_rigg_2014:RootCenterBtwLegsBlended_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:CenterExtra_M
+      parentName: robo_rigg_2014:CenterOffset_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Center_M
+      parentName: robo_rigg_2014:CenterExtra_M
+      position: {x: 0.002756941, y: -0.06889623, z: 0.031407017}
+      rotation: {x: 0.17356725, y: 0.08679002, z: -0.015357696, w: 0.98087007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetRoot_M
+      parentName: robo_rigg_2014:Center_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraRoot_M
+      parentName: robo_rigg_2014:FKOffsetRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKRoot_M
+      parentName: robo_rigg_2014:FKExtraRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:HipSwingerGroupRoot_M
+      parentName: robo_rigg_2014:FKRoot_M
+      position: {x: -0.07906643, y: 2.5687e-18, z: 6.0791153e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXRoot_M
+      parentName: robo_rigg_2014:HipSwingerGroupRoot_M
+      position: {x: 0.07906643, y: -2.5687e-18, z: -6.0791153e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:HipSwingerStabalizeRoot_M
+      parentName: robo_rigg_2014:FKXRoot_M
+      position: {x: -0.07906643, y: 2.5687e-18, z: 6.0791153e-18}
+      rotation: {x: 2.0816683e-17, y: 1.3227267e-17, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetBackA_M
+      parentName: robo_rigg_2014:HipSwingerStabalizeRoot_M
+      position: {x: -0, y: -8.881784e-17, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraBackA_M
+      parentName: robo_rigg_2014:FKOffsetBackA_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -1.8488927e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKBackA_M
+      parentName: robo_rigg_2014:FKExtraBackA_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.00740804, w: 0.9999726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXBackA_M
+      parentName: robo_rigg_2014:FKBackA_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetBackB_M
+      parentName: robo_rigg_2014:FKXBackA_M
+      position: {x: -0.07906643, y: 1.1630231e-17, z: -9.8267725e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraBackB_M
+      parentName: robo_rigg_2014:FKOffsetBackB_M
+      position: {x: -0, y: -1.9721523e-32, z: 0}
+      rotation: {x: 0, y: -1.8488927e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKBackB_M
+      parentName: robo_rigg_2014:FKExtraBackB_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXBackB_M
+      parentName: robo_rigg_2014:FKBackB_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKOffsetChest_M
+      parentName: robo_rigg_2014:FKXBackB_M
+      position: {x: -0.06884551, y: -4.2240858e-17, z: -2.8395492e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKExtraChest_M
+      parentName: robo_rigg_2014:FKOffsetChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -1.8488927e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKChest_M
+      parentName: robo_rigg_2014:FKExtraChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKXChest_M
+      parentName: robo_rigg_2014:FKChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKSystem
+      parentName: robo_rigg_2014:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraint
+      parentName: robo_rigg_2014:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintShoulder_R
+      parentName: robo_rigg_2014:IKParentConstraint
+      position: {x: 0.15399447, y: 0.77574617, z: 0.09754951}
+      rotation: {x: 0.016000357, y: 0.97955734, z: 0.1808288, w: -0.086673886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKOffsetShoulder_R
+      parentName: robo_rigg_2014:IKParentConstraintShoulder_R
+      position: {x: -0.06920625, y: 1.7763569e-16, z: -7.154606e-17}
+      rotation: {x: 0.99998266, y: -1.2017497e-14, z: 0.005893362, w: 2.0392835e-12}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXShoulder_R
+      parentName: robo_rigg_2014:IKOffsetShoulder_R
+      position: {x: -0, y: 1.7763569e-16, z: 0}
+      rotation: {x: 0.26790437, y: -0.03140524, z: 0.10681961, w: 0.95699036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXElbow_R
+      parentName: robo_rigg_2014:IKXShoulder_R
+      position: {x: -0.17971827, y: 8.999557e-11, z: 8.812395e-17}
+      rotation: {x: 9.420762e-13, y: -0.00000036173236, z: -2.7506034e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintHip_R
+      parentName: robo_rigg_2014:IKParentConstraint
+      position: {x: 0.002756941, y: 0.5326344, z: 0.031407017}
+      rotation: {x: 0.061360702, y: 0.18410039, z: -0.7044394, w: 0.68272036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKOffsetHip_R
+      parentName: robo_rigg_2014:IKParentConstraintHip_R
+      position: {x: 0.035254914, y: 0.11694264, z: 0.010286232}
+      rotation: {x: 0.005754828, y: -0.7070834, z: 0.7070834, w: 0.005754828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXHip_R
+      parentName: robo_rigg_2014:IKOffsetHip_R
+      position: {x: -0, y: -1.7347235e-19, z: 4.440892e-17}
+      rotation: {x: 0.06332472, y: -0.10388758, z: 0.21056904, w: 0.9699784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXKnee_R
+      parentName: robo_rigg_2014:IKXHip_R
+      position: {x: -0.27488762, y: -1.4727803e-16, z: -5.351275e-15}
+      rotation: {x: -3.8762456e-13, y: 9.56555e-13, z: -0.4265017, w: 0.9044868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXAnkle_R
+      parentName: robo_rigg_2014:IKXKnee_R
+      position: {x: -0.19579712, y: 2.164935e-16, z: 2.3336888e-14}
+      rotation: {x: -0.022257611, y: 0.15726279, z: 0.36632976, w: 0.91682905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintRoot_M
+      parentName: robo_rigg_2014:IKParentConstraint
+      position: {x: 0.002756941, y: 0.5326344, z: 0.031407017}
+      rotation: {x: 0.061360702, y: 0.18410039, z: -0.7044394, w: 0.68272036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKOffsetRoot_M
+      parentName: robo_rigg_2014:IKParentConstraintRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXRoot_M
+      parentName: robo_rigg_2014:IKOffsetRoot_M
+      position: {x: 6.0396134e-15, y: -4.6542794e-30, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXBackA_M
+      parentName: robo_rigg_2014:IKXRoot_M
+      position: {x: -0.07906643, y: 2.5687e-18, z: 6.0791153e-18}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXBackB_M
+      parentName: robo_rigg_2014:IKXBackA_M
+      position: {x: -0.07906643, y: 5.42315e-18, z: -1.6033852e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXChest_M
+      parentName: robo_rigg_2014:IKXBackB_M
+      position: {x: -0.06884551, y: -2.220446e-17, z: -7.459311e-17}
+      rotation: {x: -1.3877789e-16, y: 4.4962e-41, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKfake1Spine_M
+      parentName: robo_rigg_2014:IKXBackA_M
+      position: {x: -0.07906643, y: 5.42315e-18, z: -1.6033852e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKfake2Spine_M
+      parentName: robo_rigg_2014:IKfake1Spine_M
+      position: {x: -0.06884551, y: -4.764555e-17, z: -3.3800185e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKFake1UpLocSpine_M
+      parentName: robo_rigg_2014:IKfake1Spine_M
+      position: {x: -0, y: 0.1, z: 0}
+      rotation: {x: -5.551115e-17, y: -5.551115e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintShoulder_L
+      parentName: robo_rigg_2014:IKParentConstraint
+      position: {x: -0.116287544, y: 0.77574617, z: 0.1457575}
+      rotation: {x: 0.08667393, y: -0.18082902, z: 0.97955734, w: 0.015999982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKOffsetShoulder_L
+      parentName: robo_rigg_2014:IKParentConstraintShoulder_L
+      position: {x: 0.06920625, y: 0, z: 5.7762955e-17}
+      rotation: {x: 0.99998266, y: 1.730005e-10, z: 0.005893362, w: 1.0196403e-12}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXShoulder_L
+      parentName: robo_rigg_2014:IKOffsetShoulder_L
+      position: {x: -0, y: 0, z: 3.469447e-19}
+      rotation: {x: 0.25125247, y: -0.27066472, z: 0.072680995, w: 0.92646116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXElbow_L
+      parentName: robo_rigg_2014:IKXShoulder_L
+      position: {x: 0.17971827, y: -9.0004275e-11, z: -8.812395e-17}
+      rotation: {x: 9.42127e-13, y: -0.00000025516425, z: -2.47079e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintHip_L
+      parentName: robo_rigg_2014:IKParentConstraint
+      position: {x: 0.002756941, y: 0.5326344, z: 0.031407017}
+      rotation: {x: 0.061360702, y: 0.18410039, z: -0.7044394, w: 0.68272036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKOffsetHip_L
+      parentName: robo_rigg_2014:IKParentConstraintHip_L
+      position: {x: 0.035254914, y: -0.11694264, z: 0.010286232}
+      rotation: {x: 0.7070834, y: 0.005754828, z: -0.005754828, w: 0.7070834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXHip_L
+      parentName: robo_rigg_2014:IKOffsetHip_L
+      position: {x: 8.881784e-17, y: 0, z: -2.220446e-17}
+      rotation: {x: 0.10119758, y: -0.09163047, z: 0.49814537, w: 0.8562792}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXKnee_L
+      parentName: robo_rigg_2014:IKXHip_L
+      position: {x: 0.27488762, y: 1.963707e-16, z: -4.618528e-15}
+      rotation: {x: -3.1294672e-13, y: 7.9789246e-13, z: -0.40962934, w: 0.91225207}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXAnkle_L
+      parentName: robo_rigg_2014:IKXKnee_L
+      position: {x: 0.19579712, y: -1.05471186e-16, z: -2.3381298e-14}
+      rotation: {x: -0.032652516, y: 0.07167246, z: 0.071587555, w: 0.9943199}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKHandle
+      parentName: robo_rigg_2014:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintArm_R
+      parentName: robo_rigg_2014:IKHandle
+      position: {x: 0.60618913, y: 0.8613574, z: 0.0038835783}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraArm_R
+      parentName: robo_rigg_2014:IKParentConstraintArm_R
+      position: {x: 8.881784e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKArm_R
+      parentName: robo_rigg_2014:IKExtraArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureConstrainToArm_R
+      parentName: robo_rigg_2014:IKArm_R
+      position: {x: -0.00000052514315, y: -1.7763569e-16, z: -0.0000000051022804}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintLeg_R
+      parentName: robo_rigg_2014:IKHandle
+      position: {x: 0.11694264, y: 0.09703698, z: -0.017640272}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraLeg_R
+      parentName: robo_rigg_2014:IKParentConstraintLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKLeg_R
+      parentName: robo_rigg_2014:IKExtraLeg_R
+      position: {x: 0.055633616, y: 0, z: -0.115941964}
+      rotation: {x: 0.013677876, y: 0.17895077, z: -0.043877646, w: 0.982784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKFootRollLeg_R
+      parentName: robo_rigg_2014:IKLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKRollLegHeel_R
+      parentName: robo_rigg_2014:IKFootRollLeg_R
+      position: {x: 2.155165e-13, y: -0.092289835, z: -0.059360057}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraLegHeel_R
+      parentName: robo_rigg_2014:IKRollLegHeel_R
+      position: {x: 4.440892e-17, y: -1.3877788e-18, z: 2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKLegHeel_R
+      parentName: robo_rigg_2014:IKExtraLegHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKRollLegToe_R
+      parentName: robo_rigg_2014:IKLegHeel_R
+      position: {x: 0.00000005598782, y: -0.0064924858, z: 0.20006506}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraLegToe_R
+      parentName: robo_rigg_2014:IKRollLegToe_R
+      position: {x: 4.440892e-17, y: 0, z: 4.440892e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKLegToe_R
+      parentName: robo_rigg_2014:IKExtraLegToe_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKRollLegBall_R
+      parentName: robo_rigg_2014:IKLegToe_R
+      position: {x: -0.000000055987375, y: 0.027209386, z: -0.05167828}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraLegBall_R
+      parentName: robo_rigg_2014:IKRollLegBall_R
+      position: {x: 4.440892e-17, y: 0, z: 2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKLegBall_R
+      parentName: robo_rigg_2014:IKExtraLegBall_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKFootPivotBallReverseLeg_R
+      parentName: robo_rigg_2014:IKLegBall_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureConstrainToLeg_R
+      parentName: robo_rigg_2014:IKFootPivotBallReverseLeg_R
+      position: {x: -6.618928e-13, y: 0.07157294, z: -0.08902671}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintSpine0_M
+      parentName: robo_rigg_2014:IKHandle
+      position: {x: 0.002756941, y: 0.5326344, z: 0.031407017}
+      rotation: {x: 0.17356725, y: 0.08679002, z: -0.015357696, w: 0.98087007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraSpine0_M
+      parentName: robo_rigg_2014:IKParentConstraintSpine0_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKSpine0_M
+      parentName: robo_rigg_2014:IKExtraSpine0_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXSpineLocator0_M
+      parentName: robo_rigg_2014:IKSpine0_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKStiffStartOrientSpine_M
+      parentName: robo_rigg_2014:IKSpine0_M
+      position: {x: -0, y: 6.0396134e-15, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXSpineLocator1_M
+      parentName: robo_rigg_2014:IKStiffStartOrientSpine_M
+      position: {x: -0.03782973, y: 8.399888e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKOrientToSpine_M
+      parentName: robo_rigg_2014:IKSpine0_M
+      position: {x: -1.9721523e-32, y: 6.0396134e-15, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintSpine2_M
+      parentName: robo_rigg_2014:IKHandle
+      position: {x: 0.009595301, y: 0.63923216, z: 0.069746844}
+      rotation: {x: 0.17356725, y: 0.08679002, z: -0.015357696, w: 0.98087007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraSpine2_M
+      parentName: robo_rigg_2014:IKParentConstraintSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKSpine2_M
+      parentName: robo_rigg_2014:IKExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXSpineLocator2_M
+      parentName: robo_rigg_2014:IKSpine2_M
+      position: {x: -1.9721523e-32, y: -8.881784e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintSpine4_M
+      parentName: robo_rigg_2014:IKHandle
+      position: {x: 0.016433662, y: 0.74582994, z: 0.10808667}
+      rotation: {x: 0.17356725, y: 0.08679002, z: -0.015357696, w: 0.98087007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraSpine4_M
+      parentName: robo_rigg_2014:IKParentConstraintSpine4_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKSpine4_M
+      parentName: robo_rigg_2014:IKExtraSpine4_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXSpineLocator4_M
+      parentName: robo_rigg_2014:IKSpine4_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKStiffEndOrientSpine_M
+      parentName: robo_rigg_2014:IKSpine4_M
+      position: {x: 7.0997484e-31, y: -4.0856206e-15, z: 3.8216935e-18}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXSpineLocator3_M
+      parentName: robo_rigg_2014:IKStiffEndOrientSpine_M
+      position: {x: -0.03782973, y: -1.7217219e-18, z: -8.399888e-18}
+      rotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKSpine4AlignTo_M
+      parentName: robo_rigg_2014:IKSpine4_M
+      position: {x: -6.455707e-25, y: 8.3067403e-10, z: 1.8242409e-31}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintArm_L
+      parentName: robo_rigg_2014:IKHandle
+      position: {x: -0.6061886, y: 0.8613574, z: 0.003883573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraArm_L
+      parentName: robo_rigg_2014:IKParentConstraintArm_L
+      position: {x: -0, y: 1.7763569e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKArm_L
+      parentName: robo_rigg_2014:IKExtraArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureConstrainToArm_L
+      parentName: robo_rigg_2014:IKArm_L
+      position: {x: -0, y: -1.7763569e-16, z: 1.5334956e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKParentConstraintLeg_L
+      parentName: robo_rigg_2014:IKHandle
+      position: {x: -0.11694264, y: 0.09703698, z: -0.017640272}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraLeg_L
+      parentName: robo_rigg_2014:IKParentConstraintLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKLeg_L
+      parentName: robo_rigg_2014:IKExtraLeg_L
+      position: {x: -0.06342247, y: 0, z: 0.2144585}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKFootRollLeg_L
+      parentName: robo_rigg_2014:IKLeg_L
+      position: {x: 2.2107319e-10, y: 0, z: 5.551115e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKRollLegHeel_L
+      parentName: robo_rigg_2014:IKFootRollLeg_L
+      position: {x: -6.687295e-10, y: -0.092289835, z: -0.059360057}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraLegHeel_L
+      parentName: robo_rigg_2014:IKRollLegHeel_L
+      position: {x: -0, y: 1.3877788e-18, z: -2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKLegHeel_L
+      parentName: robo_rigg_2014:IKExtraLegHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKRollLegToe_L
+      parentName: robo_rigg_2014:IKLegHeel_L
+      position: {x: -0.00000005598782, y: -0.0064924858, z: 0.20006506}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraLegToe_L
+      parentName: robo_rigg_2014:IKRollLegToe_L
+      position: {x: -0, y: 0, z: 4.440892e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKLegToe_L
+      parentName: robo_rigg_2014:IKExtraLegToe_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKRollLegBall_L
+      parentName: robo_rigg_2014:IKLegToe_L
+      position: {x: 0.000000055987375, y: 0.027209386, z: -0.05167828}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKExtraLegBall_L
+      parentName: robo_rigg_2014:IKRollLegBall_L
+      position: {x: 4.440892e-17, y: 0, z: -2.220446e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKLegBall_L
+      parentName: robo_rigg_2014:IKExtraLegBall_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKFootPivotBallReverseLeg_L
+      parentName: robo_rigg_2014:IKLegBall_L
+      position: {x: 2.220446e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureConstrainToLeg_L
+      parentName: robo_rigg_2014:IKFootPivotBallReverseLeg_L
+      position: {x: 6.072698e-13, y: 0.07157294, z: -0.08902671}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKCrv
+      parentName: robo_rigg_2014:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKXSpineCurve_M
+      parentName: robo_rigg_2014:IKCrv
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKMessure
+      parentName: robo_rigg_2014:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureLoc1Arm_R
+      parentName: robo_rigg_2014:IKMessure
+      position: {x: 0.22212549, y: 0.7757461, z: 0.08539754}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureLoc2Arm_R
+      parentName: robo_rigg_2014:IKmessureLoc1Arm_R
+      position: {x: 0.38406312, y: 0.08561132, z: -0.08151396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKdistanceArm_R
+      parentName: robo_rigg_2014:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureLoc1Leg_R
+      parentName: robo_rigg_2014:IKMessure
+      position: {x: 0.11745485, y: 0.49599037, z: 0.008474402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureLoc2Leg_R
+      parentName: robo_rigg_2014:IKmessureLoc1Leg_R
+      position: {x: 0.0551214, y: -0.3989534, z: -0.14205663}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKdistanceLeg_R
+      parentName: robo_rigg_2014:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureLoc1Arm_L
+      parentName: robo_rigg_2014:IKMessure
+      position: {x: -0.18441854, y: 0.7757461, z: 0.15790947}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureLoc2Arm_L
+      parentName: robo_rigg_2014:IKmessureLoc1Arm_L
+      position: {x: -0.42177007, y: 0.08561134, z: -0.1540259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKdistanceArm_L
+      parentName: robo_rigg_2014:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureLoc1Leg_L
+      parentName: robo_rigg_2014:IKMessure
+      position: {x: -0.112796605, y: 0.49599037, z: 0.049542464}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKmessureLoc2Leg_L
+      parentName: robo_rigg_2014:IKmessureLoc1Leg_L
+      position: {x: -0.0675685, y: -0.3989534, z: 0.14727576}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:IKdistanceLeg_L
+      parentName: robo_rigg_2014:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKSystem
+      parentName: robo_rigg_2014:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKParentConstraintArm_R
+      parentName: robo_rigg_2014:FKIKSystem
+      position: {x: 0.31322145, y: 0.66457707, z: 0.027042393}
+      rotation: {x: 0.18082881, y: 0.086673856, z: -0.016000303, w: 0.97955734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKArm_R
+      parentName: robo_rigg_2014:FKIKParentConstraintArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKParentConstraintLeg_R
+      parentName: robo_rigg_2014:FKIKSystem
+      position: {x: 0.22603364, y: 0.38819993, z: -0.05844434}
+      rotation: {x: 0.17356725, y: 0.08679002, z: -0.015357696, w: 0.98087007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKLeg_R
+      parentName: robo_rigg_2014:FKIKParentConstraintLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKParentConstraintSpine_M
+      parentName: robo_rigg_2014:FKIKSystem
+      position: {x: -0.11062272, y: 0.58593327, z: 0.07140938}
+      rotation: {x: 0.17356725, y: 0.08679002, z: -0.015357696, w: 0.98087007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKSpine_M
+      parentName: robo_rigg_2014:FKIKParentConstraintSpine_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKParentConstraintArm_L
+      parentName: robo_rigg_2014:FKIKSystem
+      position: {x: -0.29007182, y: 0.664577, z: 0.13464688}
+      rotation: {x: 0.18082902, y: 0.086673915, z: -0.015999986, w: 0.97955734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKArm_L
+      parentName: robo_rigg_2014:FKIKParentConstraintArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKParentConstraintLeg_L
+      parentName: robo_rigg_2014:FKIKSystem
+      position: {x: -0.23781548, y: 0.38819993, z: 0.024288619}
+      rotation: {x: 0.17356725, y: 0.08679002, z: -0.015357696, w: 0.98087007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:FKIKLeg_L
+      parentName: robo_rigg_2014:FKIKParentConstraintLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:DeformationSystem
+      parentName: robo_rigg_2014:Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Root_M
+      parentName: robo_rigg_2014:DeformationSystem
+      position: {x: -0.0000000030595046, y: 0.5326344, z: 0.000000007747797}
+      rotation: {x: -0.5152034, y: 0.5275163, z: -0.48431954, w: 0.47087857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:BackA_M
+      parentName: robo_rigg_2014:Root_M
+      position: {x: -0.07906643, y: 2.7755576e-18, z: 2.220446e-17}
+      rotation: {x: 0.7070874, y: 0.0052382755, z: -0.0052382755, w: 0.7070874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:BackB_M
+      parentName: robo_rigg_2014:BackA_M
+      position: {x: -0.07906643, y: -4.440892e-17, z: 1.24900095e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Chest_M
+      parentName: robo_rigg_2014:BackB_M
+      position: {x: -0.06884551, y: -2.220446e-17, z: -5.551115e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Scapula_R
+      parentName: robo_rigg_2014:Chest_M
+      position: {x: -0.032848507, y: 6.6613384e-17, z: -0.13727379}
+      rotation: {x: 0.50000006, y: -0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Shoulder_R
+      parentName: robo_rigg_2014:Scapula_R
+      position: {x: -0.06920625, y: -1.7763569e-16, z: -1.3322677e-16}
+      rotation: {x: 0.99853635, y: 0.0050258324, z: 0.0041202595, w: -0.053694267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Elbow_R
+      parentName: robo_rigg_2014:Shoulder_R
+      position: {x: -0.17971827, y: 2.7820591e-11, z: -8.881784e-17}
+      rotation: {x: 0, y: 0.68257695, z: -0, w: 0.73081374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Neck_M
+      parentName: robo_rigg_2014:Chest_M
+      position: {x: -0.08095632, y: -1.3322677e-16, z: 4.82947e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Head_M
+      parentName: robo_rigg_2014:Neck_M
+      position: {x: -0.059071697, y: -1.9984015e-16, z: 5.551115e-17}
+      rotation: {x: 0.022738155, y: 0.0032578052, z: 0.05222988, w: 0.9983709}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Hair_M
+      parentName: robo_rigg_2014:Head_M
+      position: {x: -0.21613912, y: 2.5849696e-16, z: -2.3663869e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Nose_M
+      parentName: robo_rigg_2014:Head_M
+      position: {x: -5.3290707e-16, y: 0.1, z: -1.2073675e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Scapula_L
+      parentName: robo_rigg_2014:Chest_M
+      position: {x: -0.032848507, y: -1.110223e-16, z: 0.13727379}
+      rotation: {x: -0.50000024, y: -0.49999976, z: -0.49999997, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Shoulder_L
+      parentName: robo_rigg_2014:Scapula_L
+      position: {x: 0.06920625, y: 2.6645354e-16, z: 1.110223e-16}
+      rotation: {x: 0.99953675, y: 0.011673346, z: 0.003017962, w: 0.027945653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Elbow_L
+      parentName: robo_rigg_2014:Shoulder_L
+      position: {x: 0.17971827, y: -9.000454e-11, z: 0}
+      rotation: {x: 0, y: 0.51987356, z: -0, w: 0.8542432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Hip_R
+      parentName: robo_rigg_2014:Root_M
+      position: {x: 0.035254914, y: 0.11694264, z: 0.010286232}
+      rotation: {x: -0.037945658, y: -0.65232146, z: 0.7441595, w: -0.13879323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Knee_R
+      parentName: robo_rigg_2014:Hip_R
+      position: {x: -0.27488762, y: 7.549517e-16, z: -6.217249e-16}
+      rotation: {x: 0.0046128565, y: 0.009782529, z: -0.34185675, w: 0.9396899}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Ankle_R
+      parentName: robo_rigg_2014:Knee_R
+      position: {x: -0.19579712, y: 8.1046283e-16, z: 2.6512126e-14}
+      rotation: {x: -0.014189027, y: 0.122057356, z: 0.35895514, w: 0.92523074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:MiddleToe1_R
+      parentName: robo_rigg_2014:Ankle_R
+      position: {x: -0.0715729, y: -0.089026704, z: -0.0000298129}
+      rotation: {x: 0.00014316567, y: -0.000087197215, z: 0.5167764, w: 0.85612047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:MiddleToe2_R
+      parentName: robo_rigg_2014:MiddleToe1_R
+      position: {x: -0.05840373, y: 2.1797787e-12, z: -1.14464e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Hip_L
+      parentName: robo_rigg_2014:Root_M
+      position: {x: 0.035254914, y: -0.11694264, z: 0.010286232}
+      rotation: {x: 0.78371793, y: -0.11237906, z: 0.057531767, w: 0.60815066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Knee_L
+      parentName: robo_rigg_2014:Hip_L
+      position: {x: 0.27488762, y: 1.5543122e-15, z: -2.0428103e-15}
+      rotation: {x: -0.0023466048, y: -0.005225874, z: -0.33330342, w: 0.94280225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:Ankle_L
+      parentName: robo_rigg_2014:Knee_L
+      position: {x: 0.19579712, y: 7.993606e-16, z: -1.9939606e-14}
+      rotation: {x: -0.045176394, y: 0.056374155, z: 0.37738717, w: 0.9232335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:MiddleToe1_L
+      parentName: robo_rigg_2014:Ankle_L
+      position: {x: 0.07157294, y: 0.08902671, z: 0.000029812649}
+      rotation: {x: 0.0001431646, y: -0.000087196575, z: 0.5167763, w: 0.85612047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_rigg_2014:MiddleToe2_L
+      parentName: robo_rigg_2014:MiddleToe1_L
+      position: {x: 0.05840373, y: 5.031775e-12, z: 2.359002e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

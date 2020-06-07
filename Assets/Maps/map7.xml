@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MapData>
+  <Map TexturePath="z2VwC78rM23kStcvwB+Y5g==" wid="xaEkm7B0Zsw=" len="xaEkm7B0Zsw=" />
+  <EntitiesList>
+    <Entity>
+      <EntityAtr EventIndex="aqo3M2QXv1U=" PathIndex="aqo3M2QXv1U=" MapCubeIndex="kLTVE0fY7wg=" Type="vyO891sBh5I=" Model="RmjLtJThAk+t3tZhs3v1SA==" quaW="NJ8/ZHDsXQsJBQPCi0CeaQ==" quaZ="jAMsr1z/l/19afFX78+Wow==" quaY="NJ8/ZHDsXQsPPBc3EHBCuw==" quaX="KaFdULoLn8SX3r3VA+WPaA==" posZ="Zs3sFMUrf5M=" posY="aqo3M2QXv1U=" posX="AnXnYj/vA94=" />
+      <GameAtr IsAtk="l2L8dT04QJw=" IsMove="l2L8dT04QJw=" MoveSpeed="m9yqknKNq+Y=" AtkRange="m9yqknKNq+Y=" AtkSpeed="m9yqknKNq+Y=" DefValue="xj1Cyv9Kdn4=" AtkValue="ZrJO9ElgSMA=" HP="ZrJO9ElgSMA=" />
+    </Entity>
+    <Entity>
+      <EntityAtr EventIndex="aqo3M2QXv1U=" PathIndex="aqo3M2QXv1U=" MapCubeIndex="8kPp00+tqHo=" Type="9Oeh8KJbm9U=" Model="RmjLtJThAk+t3tZhs3v1SA==" quaW="m9yqknKNq+Y=" quaZ="aqo3M2QXv1U=" quaY="aqo3M2QXv1U=" quaX="aqo3M2QXv1U=" posZ="Zs3sFMUrf5M=" posY="aqo3M2QXv1U=" posX="nhINqOe/eP0=" />
+      <GameAtr IsAtk="l2L8dT04QJw=" IsMove="l2L8dT04QJw=" MoveSpeed="m9yqknKNq+Y=" AtkRange="m9yqknKNq+Y=" AtkSpeed="m9yqknKNq+Y=" DefValue="xj1Cyv9Kdn4=" AtkValue="ZrJO9ElgSMA=" HP="ZrJO9ElgSMA=" />
+    </Entity>
+  </EntitiesList>
+  <PathList>
+    <Path IsEmpty="l2L8dT04QJw=" Index="m9yqknKNq+Y=">
+      <KeyPointList>
+        <KeyPoint y="58WTGcPBC5I=" x="o5CUsgEKXvo=" />
+        <KeyPoint y="MK1GaYAPcCQ=" x="3Yvh3/uaEF4=" />
+      </KeyPointList>
+      <PointList>
+        <Point y="58WTGcPBC5I=" x="o5CUsgEKXvo=" />
+        <Point y="aPvfEHGckZI=" x="7apF1qCMpGU=" />
+        <Point y="MK1GaYAPcCQ=" x="OHCtklj7pdI=" />
+        <Point y="MK1GaYAPcCQ=" x="txiSDLmcjoE=" />
+        <Point y="MK1GaYAPcCQ=" x="zgYwE26COHA=" />
+        <Point y="MK1GaYAPcCQ=" x="AJw5y3SqEGo=" />
+        <Point y="MK1GaYAPcCQ=" x="3Yvh3/uaEF4=" />
+      </PointList>
+    </Path>
+  </PathList>
+  <EventList>
+    <Event Index="m9yqknKNq+Y=" Type="PkmVnpHPhp4=" CD="aqo3M2QXv1U=" Time="aqo3M2QXv1U=" IsInfinite="l2L8dT04QJw=" />
+  </EventList>
+  <Music Volume="82BAOYrKEFmuSzRIYNXAnQ==" Name="6oUaxJNWICs=" />
+</MapData>

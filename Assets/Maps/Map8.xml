@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MapData>
+  <Map TexturePath="z2VwC78rM23kStcvwB+Y5g==" wid="xaEkm7B0Zsw=" len="xaEkm7B0Zsw=" />
+  <EntitiesList>
+    <Entity>
+      <EntityAtr EventIndex="aqo3M2QXv1U=" PathIndex="aqo3M2QXv1U=" MapCubeIndex="gYVysA16wjk=" Type="vyO891sBh5I=" Model="RmjLtJThAk+t3tZhs3v1SA==" quaW="m9yqknKNq+Y=" quaZ="aqo3M2QXv1U=" quaY="aqo3M2QXv1U=" quaX="aqo3M2QXv1U=" posZ="7LYIpU1zYJA=" posY="aqo3M2QXv1U=" posX="ytRe15AVfPY=" />
+      <GameAtr IsAtk="l2L8dT04QJw=" IsMove="l2L8dT04QJw=" MoveSpeed="m9yqknKNq+Y=" AtkRange="m9yqknKNq+Y=" AtkSpeed="m9yqknKNq+Y=" DefValue="xj1Cyv9Kdn4=" AtkValue="ZrJO9ElgSMA=" HP="ZrJO9ElgSMA=" />
+    </Entity>
+  </EntitiesList>
+  <PathList>
+    <Path IsEmpty="l2L8dT04QJw=" Index="m9yqknKNq+Y=">
+      <KeyPointList>
+        <KeyPoint y="HA/Oam4+XHU=" x="+LOBGwrZlBw=" />
+        <KeyPoint y="HA/Oam4+XHU=" x="zgYwE26COHA=" />
+      </KeyPointList>
+      <PointList>
+        <Point y="HA/Oam4+XHU=" x="+LOBGwrZlBw=" />
+        <Point y="HA/Oam4+XHU=" x="o5CUsgEKXvo=" />
+        <Point y="HA/Oam4+XHU=" x="7apF1qCMpGU=" />
+        <Point y="HA/Oam4+XHU=" x="OHCtklj7pdI=" />
+        <Point y="HA/Oam4+XHU=" x="txiSDLmcjoE=" />
+        <Point y="HA/Oam4+XHU=" x="zgYwE26COHA=" />
+      </PointList>
+    </Path>
+  </PathList>
+  <EventList>
+    <Event Index="m9yqknKNq+Y=" Type="PkmVnpHPhp4=" CD="aqo3M2QXv1U=" Time="aqo3M2QXv1U=" IsInfinite="l2L8dT04QJw=" />
+  </EventList>
+  <Music Volume="AUUSPqIn6PR2qhYvBpll5Q==" Name="6oUaxJNWICs=" />
+</MapData>
